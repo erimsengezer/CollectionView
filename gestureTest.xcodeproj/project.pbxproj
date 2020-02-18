@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0084813F23FC04C100A49D6B /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084813E23FC04C100A49D6B /* AnimationViewController.swift */; };
 		00939D6023F67E0600787CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00939D5F23F67E0600787CC2 /* AppDelegate.swift */; };
 		00939D6223F67E0600787CC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00939D6123F67E0600787CC2 /* SceneDelegate.swift */; };
 		00939D6423F67E0600787CC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00939D6323F67E0600787CC2 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0084813E23FC04C100A49D6B /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		00939D5C23F67E0600787CC2 /* gestureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00939D5F23F67E0600787CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00939D6123F67E0600787CC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,9 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				00939D6323F67E0600787CC2 /* ViewController.swift */,
-				00939D9723F6CC6B00787CC2 /* DetailViewController.swift */,
 				00939D9123F6BEC400787CC2 /* CollectionViewController.swift */,
+				00939D9723F6CC6B00787CC2 /* DetailViewController.swift */,
 				00939D9323F6BF4200787CC2 /* CollectionViewCell.swift */,
+				0084813E23FC04C100A49D6B /* AnimationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				00939D9423F6BF4200787CC2 /* CollectionViewCell.swift in Sources */,
 				00939D6223F67E0600787CC2 /* SceneDelegate.swift in Sources */,
 				00939D9023F69BBF00787CC2 /* CustomUISlider.swift in Sources */,
+				0084813F23FC04C100A49D6B /* AnimationViewController.swift in Sources */,
 				00939D9223F6BEC400787CC2 /* CollectionViewController.swift in Sources */,
 				00939D9823F6CC6B00787CC2 /* DetailViewController.swift in Sources */,
 			);

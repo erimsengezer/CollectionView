@@ -24,7 +24,7 @@ class DetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        if let image = image {
+         if let image = image {
             imageView.image = image
         }
         if let title = titleText {
@@ -36,5 +36,16 @@ class DetailViewController: UIViewController {
         }
         
     }
-
+    @IBAction func button(_ sender: Any) {
+        performSegue(withIdentifier: "goToAnimation", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if segue.identifier == "goToAnimation" {
+                let vc = segue.destination as! AnimationViewController
+                vc.choosenPhoto = self.image
+            }
+        }
+    
+    
 }
