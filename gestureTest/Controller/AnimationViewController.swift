@@ -40,9 +40,22 @@ class AnimationViewController: UIViewController {
         
         menuLabel.isUserInteractionEnabled = true
         plusButton.isUserInteractionEnabled = true
+        label1.isUserInteractionEnabled = true
+        
         let gesture = UITapGestureRecognizer(target: self, action: #selector(menuAction))
         menuLabel.addGestureRecognizer(gesture)
         plusButton.addGestureRecognizer(gesture)
+        
+        let labelGesture = UITapGestureRecognizer(target: self, action: #selector(labelClicked))
+        label1.addGestureRecognizer(labelGesture)
+    }
+    
+    @objc private func labelClicked() {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        let slider = SliderViewController(collectionViewLayout: layout)
+        slider.modalPresentationStyle = .fullScreen
+        self.present(slider, animated: true, completion: nil)
     }
 
     @objc private func menuAction() {

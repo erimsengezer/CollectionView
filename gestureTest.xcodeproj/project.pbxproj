@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0038E88023FD6D0C00D993A8 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038E87F23FD6D0C00D993A8 /* SliderViewController.swift */; };
+		0038E88223FD73E500D993A8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038E88123FD73E500D993A8 /* Cell.swift */; };
+		00422B7B23FEA68200CDE830 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00422B7A23FEA68200CDE830 /* Page.swift */; };
 		0084813F23FC04C100A49D6B /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084813E23FC04C100A49D6B /* AnimationViewController.swift */; };
 		00939D6023F67E0600787CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00939D5F23F67E0600787CC2 /* AppDelegate.swift */; };
 		00939D6223F67E0600787CC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00939D6123F67E0600787CC2 /* SceneDelegate.swift */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0038E87F23FD6D0C00D993A8 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		0038E88123FD73E500D993A8 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		00422B7A23FEA68200CDE830 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		0084813E23FC04C100A49D6B /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		00939D5C23F67E0600787CC2 /* gestureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00939D5F23F67E0600787CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +155,8 @@
 				00939D9723F6CC6B00787CC2 /* DetailViewController.swift */,
 				00939D9323F6BF4200787CC2 /* CollectionViewCell.swift */,
 				0084813E23FC04C100A49D6B /* AnimationViewController.swift */,
+				0038E87F23FD6D0C00D993A8 /* SliderViewController.swift */,
+				0038E88123FD73E500D993A8 /* Cell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -158,6 +166,7 @@
 			children = (
 				00939D8F23F69BBF00787CC2 /* CustomUISlider.swift */,
 				00939D9523F6C0C900787CC2 /* DataModel.swift */,
+				00422B7A23FEA68200CDE830 /* Page.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -294,12 +303,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				00939D9623F6C0C900787CC2 /* DataModel.swift in Sources */,
+				0038E88023FD6D0C00D993A8 /* SliderViewController.swift in Sources */,
+				00422B7B23FEA68200CDE830 /* Page.swift in Sources */,
 				00939D6423F67E0600787CC2 /* ViewController.swift in Sources */,
 				00939D6023F67E0600787CC2 /* AppDelegate.swift in Sources */,
 				00939D9423F6BF4200787CC2 /* CollectionViewCell.swift in Sources */,
 				00939D6223F67E0600787CC2 /* SceneDelegate.swift in Sources */,
 				00939D9023F69BBF00787CC2 /* CustomUISlider.swift in Sources */,
 				0084813F23FC04C100A49D6B /* AnimationViewController.swift in Sources */,
+				0038E88223FD73E500D993A8 /* Cell.swift in Sources */,
 				00939D9223F6BEC400787CC2 /* CollectionViewController.swift in Sources */,
 				00939D9823F6CC6B00787CC2 /* DetailViewController.swift in Sources */,
 			);
